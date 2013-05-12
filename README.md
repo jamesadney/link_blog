@@ -1,8 +1,6 @@
 App-A-Day -> Link Blog
-======================
 
-Installing
-----------
+##Installation
 
     git clone git://github.com/jamesadney/link_blog.git
     cd link_blog
