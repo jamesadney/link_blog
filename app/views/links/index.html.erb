@@ -4,6 +4,7 @@
 <% @links.each do |link| %>
 	<li>
 		<h2><%= link.title %></h2>
+		<p><em><%= link.created_at.strftime("%x - %I:%M%p") %></em></p>
 		<p><%= link.url %></p>
 	</li>
 <% end %>
