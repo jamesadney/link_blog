@@ -1,5 +1,5 @@
 LinkBlog::Application.routes.draw do
-  root :to => "links#index"
+  root :to => redirect("/links")
 
   resources :links
 
