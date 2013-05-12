@@ -1,11 +1,14 @@
+<div class="page-header">
+	<h2>View Links</h2>
+</div>
+
 <%= link_to "New Link", new_link_path %>
 
 <ul>
 <% @links.each do |link| %>
 	<li>
-		<h2><%= link.title %></h2>
+		<h3><a href="<%= link.url %>"><%= link.title %></a></h3>
 		<p><em><%= link.created_at.strftime("%x - %I:%M%p") %></em></p>
-		<p><%= link.url %></p>
 	</li>
 <% end %>
 </ul>
