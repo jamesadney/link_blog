@@ -1,0 +1,47 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/james/Dropbox/programming/codefellows/app-a-day/link_blog/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/james/Dropbox/programming/codefellows/app-a-day/link_blog/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/james/Dropbox/programming/codefellows/app-a-day/link_blog/app/controllers/links_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/james/Dropbox/programming/codefellows/app-a-day/link_blog/app/models/link.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1368555466
+  }
+}
